@@ -1,0 +1,64 @@
+:root {
+    --blue-color: #004894be;
+    --secondary-color: #6c757d;
+    --light-color: #f8f9fa;
+    --dark-color: #343a40;
+    --text-color: #000000;
+    --bg-color: #7faddd;
+    --container-color: #a5d0ff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid var(--secondary-color);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: var(--container-color);
+}
+
+.login-container h1 {
+    font-size: 30px;
+    background-color: var(--blue-color);
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 30px;
+    color: var(--light-color);
+    display: flex;
+    justify-content: center;
+}
+
+.btn-primary {
+    background-color: var(--blue-color);
+    border-color: var(--blue-color);
+}
+
+.btn-link {
+    color: var(--blue-color);
+}
+
+.btn-link:hover {
+    color: var(--blue-color);
+}
+
+.create-account {
+    text-align: center;
+    margin-top: 20px;
+}
